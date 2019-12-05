@@ -40,7 +40,7 @@ public class Exercicios4 {
     boolean _Valr=66
      
     /*
-       1.inicialize as varivais (nr, nr1, nr2) com tipos primitivos a sua escolha.
+       2.inicialize as varivais (nr, nr1, nr2) com tipos primitivos a sua escolha.
             
           double resultado = nr + nr1 + nr2;
             
@@ -48,7 +48,7 @@ public class Exercicios4 {
     */
             
     /*
-       2.
+       3.
             saudacoe = "Öla, Mundo";
             
            a) imprima a String.
@@ -56,11 +56,46 @@ public class Exercicios4 {
     */
             
     /*
-        3.
+        4.
             String logica = Ola, mundo;
             
            a) System.out.println (logica);
            Que resultado sera apresentado?
+       
+    */
             
-    
+    /*
+        5.
+            Indique os tipos de classes Wrappers por ti conhecidas!
+            
+    */
+            
+    /*
+         6.   
+            a) Destes quais tu os consideras tipos primitivos:
+            
+                -for;
+                -else;
+                -if;
+                -char;
+                -short;
+                -while;
+                -do;
+            
+            b) Pelos conhecimentos por ti adquiridos, quais consideras "Operadores"?
+                
+                - (
+                - )
+                - ^
+                - ///
+            
+            
+         7. Considere os seguintes operacoes: +,-,*,%,++,--,==,!=,>, >=, <, <=, &&,||
+            
+            a) Indique os operadores de atribuicao, aritmeticos, relacionais, logicos, ncremento
+            decremento, igualdade, e a funcao de cada um.
+            
+            b)Indique a recedencia dos operadores.
+         
+    */        
 }
