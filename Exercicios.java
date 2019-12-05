@@ -40,8 +40,28 @@ public class Exercicios {
     int numero1=2,2;
     
     boolean _Valr=66
+     
+    /*
+       1.inicialize as varivais (nr, nr1, nr2) com tipos primitivos a sua escolha.
             
-    
+          double resultado = nr + nr1 + nr2;
             
-         
+         a) imprima resultado. 
+    */
+            
+    /*
+       2.
+            saudacoe = "Öla, Mundo";
+            
+           a) imprima a String.
+            
+    */
+            
+    /*
+        3.
+            String logica = Ola, mundo;
+            
+           a) System.out.println (logica);
+           Que resultado sera apresentado?
+            
 }
