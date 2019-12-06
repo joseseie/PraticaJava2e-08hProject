@@ -11,16 +11,16 @@ public class Exercicios4 {
     public static void main(String[] args) {
         
         // 1. Analise as declaracoes e inicializacoess de variavies a baixo e faca alguma correcao se necessario
-
+        
         int numero = 1;
 
         String um = "1";
 
-        float x = 0.5f;
+        float x = 0.5F;
 
         String a = "nome";    
 
-        String abCom="site";
+        String abCom="site";        
 
         boolean z = true;
 
@@ -35,7 +35,7 @@ public class Exercicios4 {
         int n = 2;
         
         boolean valorPago = true;
-
+       
         int numero1=2;
         
         boolean valr= false;
@@ -50,7 +50,7 @@ public class Exercicios4 {
 
         String meuNome = "Esse e o meu nome";
         
-        long numeroDaConta = 123456789123456789l;
+        long numeroDaConta = 123456789123456789L;
         
     }
 }
