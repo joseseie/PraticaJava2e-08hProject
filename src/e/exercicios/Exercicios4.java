@@ -1,20 +1,16 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package e.exercicios.aula03;
+
+package e.exercicios;
 
 /**
  *
  * @author Fenias
+ * @author José Seie
  */
 public class Exercicios4 {
     
     public static void main(String[] args) {
         
         // 1. Analise as declaracoes e inicializacoess de variavies a baixo e faca alguma correcao se necessario
-
 
         int numero="um";
 
@@ -54,7 +50,7 @@ public class Exercicios4 {
         
         String MEU_NOME = 'Esse é o meu nome'
         
-        long numeroDaConta = 123456789123456789;
+        public long numeroDaConta = 123456789123456789;
       
         
     }
