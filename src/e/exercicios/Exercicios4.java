@@ -26,25 +26,20 @@ public class Exercicios4 {
 
         double v = 0.5;
 
-        String NomeAluno="Joao"; //por melhorar
         String nomeAluno = "joao";
         
         int idadeAluno = 18;
 
-        String Jõao; //por melhorar
         String nome;
         
-        int Intenger=2; //por melhorar
-        int n = 2;//acho q  o erro e o integer por ser uma classe wrapper(minha observacao)
-
-        boolean valor_pago=true; //por melhorar
+        int n = 2;
+        
         boolean valorPago = true;
 
         int numero1=2;
         
         boolean valr= false;
 
-        int Integer = 10; //por melhorar
         int nI=10;
         
         char s='k';
@@ -55,7 +50,6 @@ public class Exercicios4 {
 
         String meuNome = "Esse e o meu nome";
         
-        //public long numeroDaConta = 123456789123456789;
         long numeroDaConta = 123456789123456789l;
         
     }
