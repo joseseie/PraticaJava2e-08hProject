@@ -38,7 +38,7 @@ public class Exercicios5 {
     11.	Crie um programa que calcule a média de um aluno para a disciplina de programação. O aluno deve informar seu nome e as três notas da matéria.
     12.	Fazer um programa que imprima a média aritmética dos números 8,9 e 7. A média dos números 4, 5 e 6. A soma das duas médias. A média das médias.
     13.	Informar um saldo e imprimir o saldo com o aumento de 1%.
-    14.	Escreva uma classe ConversaoDeUnidadesDeTemperatura que contenha métodos estáticos para calcular a conversão entre diferentes escalas de temperatura. Considere as fórmulas de conversão abaixo: 
+    14.	Escreva uma classe que contenha métodos estáticos para calcular a conversão entre diferentes escalas de temperatura. Considere as fórmulas de conversão abaixo: 
     a)	De graus Celsius (C) para graus Fahrenheit (F): F = (9 × C/5) + 32) 
     b)	De graus Fahrenheit (F) para graus Celsius (C): C = (F − 32) × +5/9 
     c)	De graus Celsius (C) para graus Kelvin (K): K = C + 273.15 

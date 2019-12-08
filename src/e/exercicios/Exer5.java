@@ -9,9 +9,6 @@ package e.exercicios;
  *
  * @author user
  */
-public class Exer4 {
-  //  4.Faça um programa que imprima o seu nome e imprima em tela
-    public static void main(String[ ] args) {
-    System.out.println("Iben Enky");   
-}
+public class Exer5 {
+    
 }
