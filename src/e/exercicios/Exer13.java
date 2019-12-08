@@ -9,12 +9,13 @@ package e.exercicios;
  *
  * @author user
  */
-public class Exer6 {
-  public static void main (String [] args){
-     //6.Faça um programa que leia dois números e imprima a sua soma
-    int a=1;
-    int b=2;
-    int total=(a+b);
-    System.out.println(total);
-  }
+public class Exer13 {
+   public static void main (String [] args ){
+   
+//13.Informar um saldo e imprimir o saldo com o aumento de 1%.
+  double saldo=2.500;
+  double aumento=(saldo*1/100);
+  System.out.println(aumento);
+       
+   } 
 }
