@@ -3,21 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package e.exercicios;
+package e.correcoes.e5;
 
 /**
  *
  * @author user
  */
-public class Exer9 {
+public class Exer13 {
    public static void main (String [] args ){
    
-   //9.Faça um programa que leia 3 números inteiros distintos e escreva o menor deles.
-    int a=4;
-    int b=5;
-    int c=6;
-    
-    System.out.println(a);    
-   
+//13.Informar um saldo e imprimir o saldo com o aumento de 1%.
+  double saldo=2.500;
+  double aumento=(saldo*1/100);
+  System.out.println(aumento);
+       
    } 
 }
