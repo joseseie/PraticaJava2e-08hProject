@@ -8,3 +8,4 @@ Repositório da turma das 08h do curso de java II edição.
 * Nicolas Muchate - https://github.com/nmmuchate
 * Iben Enky - https://github.com/IbenEnky
 * Hassan Mutola -https://github.com/hassanmutola
+* Mais alguém.
