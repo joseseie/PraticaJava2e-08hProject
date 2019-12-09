@@ -33,7 +33,9 @@ public class Exer2 {
         System.out.println("O quociente de 90 por 30 é igual a:"+(90/30));
         System.out.println("O quadrado de 9 é:"+(9*9)); 
         
-        
+        // TPC:
+        //1. Colocar espaços entre a palavra 'igual a:' e o resultado, mostrar assim: 'igual a: 10'.
+        //2. Usar a class Math de Java para achar o quadrado de (9)
         
     }
 }
