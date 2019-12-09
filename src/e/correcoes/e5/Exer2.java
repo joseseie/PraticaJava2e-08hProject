@@ -7,7 +7,11 @@ package e.correcoes.e5;
 
 /**
  *
- * @author user
+ * @author Iben Enky
+ * @author José Seie
+ * @author Nicolas Muchate
+ * @author Hassan Mutola
+ * 
  */
 public class Exer2 {
     public static void main (String[] args ){
@@ -18,18 +22,18 @@ public class Exer2 {
                “O quadrado de 9 é: “
 
        */
+      // # Algoritmo:
+      // 1. Imprimir a frase "Seja bem vindo ao meu programa!"
+      // 2. Imprimir uma linha em branco.
+      // 3. Imprimir as frase (em ordem) e o resultado das expressões matemáticas.
      
-    int a = 8;
-    int b = 90;
-    int c = 30;
-    int d = 9;
-    int produto= (a*b);
-    int quociente=(b/c);
-    int quadrado=(d*d);
-        System.out.println("Seja bem-vinda ao meu programa");
-        System.out.println("");
-        System.out.println("O produto de 8 por 90 é igual a:"+produto);
-        System.out.println("O quociente de 90 por 30 é igual a:"+quociente);
-        System.out.println("O quadrado de 9 é:"+quadrado); 
+        System.out.println("Seja bem-vindo ao meu programa!");
+        System.out.println(""); //impressão da linha em branco
+        System.out.println("O produto de 8 por 90 é igual a:"+(8*90));
+        System.out.println("O quociente de 90 por 30 é igual a:"+(90/30));
+        System.out.println("O quadrado de 9 é:"+(9*9)); 
+        
+        
+        
     }
 }

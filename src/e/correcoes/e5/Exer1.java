@@ -7,7 +7,10 @@ package e.correcoes.e5;
 
 /**
  *
- * @author user
+ * @author Iben Enky
+ * @author José Seie
+ * @author Nicolas Muchate
+ * @author Hassan Mutola
  */
 public class Exer1 {
     public static void main(String[] args){
