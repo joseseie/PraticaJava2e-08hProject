@@ -36,8 +36,6 @@ public class Exer3 {
     int ano = ler.nextInt();
     int idade = 2019 - ano;
     
-   
-    
     System.out.print("Eu chamo me: " + nome + " de idade: " + idade + " anos de idade e " + ocupacao);              
              
    } 
