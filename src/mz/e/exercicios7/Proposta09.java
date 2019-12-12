@@ -1,5 +1,5 @@
 
-package e.exercicios;
+package mz.e.exercicios7;
 
 import java.util.ArrayList;
 import java.util.Arrays;
