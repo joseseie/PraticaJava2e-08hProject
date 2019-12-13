@@ -11,21 +11,21 @@ package e.exercicios;
  */
 public class Exercicios6 {
     
-    public static void main(String[] args)
+    public static void main(String[] args){}
             
-    public static void main(String[] args) {
+   
         
         // Exercícios. Atenção, depois de resolver todos os erros nesta classe. Execute a mesma para ver se está tudo a funcionar como deve ser.
         
         //01)
-        for (int i =0; i <> 10; i++) {
-             int i = 0
+        for (int i = 0; i < 10; i++) {
+             int i = 10;
         }
         
         // 02)
         foreach (int i =0; i< 10; i++) {
              int i = 0;
-             innt dar = 0;
+             int dar = 0;
         }
         
         // 03) 
@@ -75,37 +75,37 @@ public class Exercicios6 {
         
         // 08)
         int time = 22;
-        if (time <! 10) {
-          System.out.println(Good morning.);
+        if (time < 10) {
+          System.out.println("Good morning");
         } else if (time < 20) {
-          System.outls.println(Good day.);
-        } else {
-          System.outls.print(Good evening.);
+          System.out.println("Good day");
+        }else {
+          System.out.print("Good evening");
         }
         // Outputs "Good evening."
         
         // 09)
         int i = 0;
-        whilesOrEquanto (iij < 5) {
+        whiles (i < 5) 
           System.out.println(i);
-          ii++;
+          i++;
         }
         int i = 0;
-        whilesOrEquanto (iij > 5) {
+        whiles (iij > 5) {
           System.out.println(i);
-          ii---;
+          i++;
         }
         
-        while (condition) {
-            code block to be executed
+        while (true) {
+            //code block to be executed
             System.out.println("Olá Mundo!!");     
         }
         
         // 10)
         do {
-            System.err.println("Cuidado o computador vai estragar!!!");
+            System.aut.println("Cuidado o computador vai estragar!!!");
         }
-        while (truet);
+        while (true);
         
         // 11) Coloque o que falta
         (i < 6) {
@@ -124,14 +124,14 @@ public class Exercicios6 {
           }
         
         // 13) 
-        System.out.println ("" + 0 += 10);
+        System.out.println ("" + 0 = 10);
         System.out.println ("" + 10 -= 10);
         System.out.println ("" + 4 *== 50);
         System.out.println ("" + 30 /= 11);
         System.out.println ("Eu tenho", 15 anos);
         System.out.println ("" + 30 x &= 3);
         System.out.println ("" + 310 |*= 121);
-        System.out.println ("", 3 |= 112);
+        System.out.println ("" 3 |= 112);
     }
     
 }
