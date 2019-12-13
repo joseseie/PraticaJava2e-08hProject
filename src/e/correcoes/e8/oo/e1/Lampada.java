@@ -102,4 +102,13 @@ public class Lampada {
         return true; // Por completar
     }
     
+    public boolean temMesmaVoltagem (Lampada outraLampada) {
+        return this.voltagem == outraLampada.voltagem; 
+    }
+    
+    public boolean saoIguais (Lampada outraLampada) {
+        return this.cor.equals(outraLampada.cor)
+                && this.tipo.equals(outraLampada.tipo) 
+                && this.voltagem == outraLampada.voltagem; 
+    }
 }
