@@ -19,6 +19,8 @@ public class Lampada {
     private double voltagem;
     private byte grauDeLuminosidade;
 
+    // Construtores
+   
     public Lampada(String cor, boolean estado, String tipo, double voltagem, byte grauDeLuminosidade) {
         this.cor = cor;
         this.estado = estado;
@@ -30,6 +32,8 @@ public class Lampada {
     public Lampada() {
     }
 
+    
+    // Getters e Setters
     public String getCor() {
         return cor;
     }
@@ -70,13 +74,20 @@ public class Lampada {
         this.grauDeLuminosidade = grauDeLuminosidade;
     }
 
+    // Metodo toString ()
     @Override
     public String toString() {
         return "Lampada{" + "cor=" + cor + ", estado=" + estado + ", tipo=" + tipo + ", voltagem=" + voltagem + ", grauDeLuminosidade=" + grauDeLuminosidade + '}';
     }
     
+    // Metodos adicionads
     
-    
+    public void ligar () {
+        this.setEstado(true);
+    }
+    public void desligar () {
+        this.setEstado(false);
+    }
     
     
     
