@@ -111,4 +111,14 @@ public class Lampada {
                 && this.tipo.equals(outraLampada.tipo) 
                 && this.voltagem == outraLampada.voltagem; 
     }
+    
+    public void aumentarOuReduzirLuminosidade (char comando) {
+        byte novaLuminosidade = (comando == '+') 
+                ? (byte) (this.grauDeLuminosidade + 5) : (comando == '-') 
+                ? (byte) (this.grauDeLuminosidade - 5) 
+                : this.grauDeLuminosidade;
+        
+        this.setGrauDeLuminosidade(novaLuminosidade);
+    }
+    
 }
