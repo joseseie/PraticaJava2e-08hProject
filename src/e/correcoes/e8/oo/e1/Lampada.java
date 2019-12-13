@@ -48,6 +48,7 @@ public class Lampada {
 
     public void setEstado(boolean estado) {
         this.estado = estado;
+        this.mostrarMensagem(estado);
     }
 
     public String getTipo() {
@@ -89,6 +90,13 @@ public class Lampada {
         this.setEstado(false);
     }
     
+    public void mostrarMensagem (boolean estado) {
+        if (estado) {
+            System.out.println("Lampada Ligada!");
+        } else {
+            System.err.println("Lampada desligada!");
+        }
+    }
     
     
 }
