@@ -84,22 +84,29 @@ public class Lampada {
     // Metodos adicionads
     
     public void ligar () {
-        this.setEstado(true);
+        if (!this.estaFundida()) {
+            this.setEstado(true);
+        } else {
+            System.err.println("Infelizmente a lampada não pode ligar porque está fundida!");
+        }
+        
     }
     public void desligar () {
-        this.setEstado(false);
+        if (!this.estaFundida()) {
+            this.setEstado(false);
+        } else {
+            System.err.println("Infelizmente a lampada não pode desligar mais porque está fundida!");
+        }
     }
     
     public void mostrarMensagem (boolean estado) {
         if (estado) {
             System.out.println("Lampada Ligada!");
-        } else {
-            System.err.println("Lampada desligada!");
-        }
+        }  
     }
     
     public boolean estaFundida () {
-        return true; // Por completar
+        return this.grauDeLuminosidade > 100; // Por completar
     }
     
     public boolean temMesmaVoltagem (Lampada outraLampada) {
@@ -113,12 +120,19 @@ public class Lampada {
     }
     
     public void aumentarOuReduzirLuminosidade (char comando) {
-        byte novaLuminosidade = (comando == '+') 
+        if (!this.estaFundida()) {
+            
+            byte novaLuminosidade = (comando == '+') 
                 ? (byte) (this.grauDeLuminosidade + 5) : (comando == '-') 
                 ? (byte) (this.grauDeLuminosidade - 5) 
                 : this.grauDeLuminosidade;
         
-        this.setGrauDeLuminosidade(novaLuminosidade);
+            this.setGrauDeLuminosidade(novaLuminosidade);
+            
+        } else {
+            System.err.println("Não há como aumentar a luminosidade pois a Lampada está fundida!");
+        }
+        
     }
     
 }
