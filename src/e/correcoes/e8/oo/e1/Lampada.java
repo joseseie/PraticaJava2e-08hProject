@@ -98,5 +98,8 @@ public class Lampada {
         }
     }
     
+    public boolean estaFundida () {
+        return true; // Por completar
+    }
     
 }
