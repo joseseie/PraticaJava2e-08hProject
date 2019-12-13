@@ -45,7 +45,7 @@ public class Exercicios5 {
     d)	De graus Kelvin (K) para graus Celsius (C): C = K − 273.15 
     e)	De graus Celsius (C) para graus Réaumur (Re): Re = C ∗ 4/5 
     f)	De graus Réaumur (Re) para graus Celsius (C): C = Re ∗ 5/4 
-    g)	De graus Kelvin (K) para graus Rankine (R): R = K ∗ 1.8 
+    g)	De graus Réaumur (K) para graus Rankine (R): R = K ∗ 1.8 
     h)	De graus Rankine (R) para graus Kelvin (K): K = R/1.8
 
     
