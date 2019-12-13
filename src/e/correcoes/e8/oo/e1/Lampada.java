@@ -29,6 +29,47 @@ public class Lampada {
 
     public Lampada() {
     }
+
+    public String getCor() {
+        return cor;
+    }
+
+    public void setCor(String cor) {
+        this.cor = cor;
+    }
+
+    public boolean isEstado() {
+        return estado;
+    }
+
+    public void setEstado(boolean estado) {
+        this.estado = estado;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public double getVoltagem() {
+        return voltagem;
+    }
+
+    public void setVoltagem(double voltagem) {
+        this.voltagem = voltagem;
+    }
+
+    public byte getGrauDeLuminosidade() {
+        return grauDeLuminosidade;
+    }
+
+    public void setGrauDeLuminosidade(byte grauDeLuminosidade) {
+        this.grauDeLuminosidade = grauDeLuminosidade;
+    }
+    
     
     
     
