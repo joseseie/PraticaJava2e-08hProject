@@ -9,6 +9,8 @@ import java.util.Vector;
 /**
  *
  * @author joseseie
+ * @author Filipe Mangue
+ * @author Horcha Chambule
  */
 public class Exercicos8 {
     
