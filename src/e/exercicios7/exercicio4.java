@@ -15,13 +15,21 @@ import java.util.Random;
  */
 public class exercicio4 {
  public static void main (String[]args){
-     int [] a = new int [5];
+   /*  int [] a = new int [5];
      Random numeros = new Random();
+     
     for (int i=0; i< a.length; i++) {
-a[i]=numeros.nextInt();
-System.out.println("a[" + i + "]=" +a[i]);
+        a[i]=numeros.nextInt();
+        System.out.println("a[" + i + "]=" +a[i]);
     }
-    System.out.println();
+    
+    System.out.println();*/
+   char [] copyFrom ={'t','a','l','e','n','t','o','s'};
+   
+   
+   char [] copyTo = new char[8];
+   System.arraycopy(copyFrom, 0, copyTo, 0, 8);
+   System.out.print(new String (copyTo));
    
        
  }
