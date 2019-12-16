@@ -30,7 +30,7 @@ public class exercicio5 {
         }
         
         
-         for(int i=0;i<A.length;i++)
+       /*  for(int i=0;i<A.length;i++)
         {
             System.out.println("os valores do array A sao"+ A[i]);
       
@@ -39,7 +39,7 @@ public class exercicio5 {
         {
          System.out.println("Os valores do aray B sao"+B[j]);
             B[j]=Integer.parseInt(sc.nextLine());   
-        }
+        }*/
         
         for(int s=0;s<soma.length;s++)
         {
