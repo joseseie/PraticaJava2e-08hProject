@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package e.exercicios7;
+import java.util.Arrays;
 import java.util.Scanner;
 /**
  *
@@ -12,16 +13,14 @@ import java.util.Scanner;
 public class Exercicio3 {
     public static void main(String[] args) {
         
-     Scanner sc=new Scanner(System.in);
-        double vector[]=new double[50];
+    
+        int vector[]=new int[50];
         
         for(int i=101;i<150;i++){
-       vector[i]=sc.nextInt();
+       vector[i-101]=i;
         
     }
-        for(int i=101;i<150;i++)
-        {
-              System.out.println(vector[i]);
-        }
+        System.out.println(Arrays.toString(vector));
+        
 }
 }
