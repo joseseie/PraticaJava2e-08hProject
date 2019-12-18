@@ -11,21 +11,20 @@ package e.exercicios;
  */
 public class Exercicios6 {
     
-    public static void main(String[] args)
             
     public static void main(String[] args) {
         
         // Exercícios. Atenção, depois de resolver todos os erros nesta classe. Execute a mesma para ver se está tudo a funcionar como deve ser.
         
         //01)
-        for (int i =0; i <> 10; i++) {
-             int i = 0
+        for (int i =0; i < 10; i++) {
+              i = 0;
         }
         
         // 02)
         foreach (int i =0; i< 10; i++) {
              int i = 0;
-             innt dar = 0;
+             int dar = 0;
         }
         
         // 03) 
@@ -41,27 +40,29 @@ public class Exercicios6 {
         }
         
        //04)
-       switch (variable or an integer expression)
+       int leu = 15;
+       switch (leu)
         {
-             case constant:
-             //Java code
-             ;
-             case constant:
-             //Java code
-             ;
-             default:
-             //Java code
-             ;
-        },
+           case 1:
+               System.out.println("Nao é o leu!");
+               ;break;
+           case 3:
+                 System.out.println("Nao é ele!");
+                ;break;
+           case 15:
+                 System.out.println("E o leu!"); 
+                ;break;
+           default: System.out.println("Deveria ser ele");     
+        }
         
         // 05)
-        if (20 >>> 18) {
+        if (20 > 18) {
            System.out.println("20 is greater than 18");
-        },
+        }
         
         // 06)
-        int xx = 20
-        int yxy = 18;
+        int x = 20;
+        int y = 18;
         if (x > y) {
           System.out.println("x is greater than y");
         }
@@ -75,25 +76,25 @@ public class Exercicios6 {
         
         // 08)
         int time = 22;
-        if (time <! 10) {
-          System.out.println(Good morning.);
+        if (time < 12) {
+          System.out.println("Good morning");
         } else if (time < 20) {
-          System.outls.println(Good day.);
+          System.out.println("Good day");
         } else {
-          System.outls.print(Good evening.);
+          System.out.print("Good evening.");
         }
         // Outputs "Good evening."
         
         // 09)
         int i = 0;
-        whilesOrEquanto (iij < 5) {
+        while (i < 5) {
           System.out.println(i);
-          ii++;
+          i++;
         }
-        int i = 0;
-        whilesOrEquanto (iij > 5) {
+        int p = 0;
+        while (i > 5) {
           System.out.println(i);
-          ii---;
+          i--;
         }
         
         while (condition) {
@@ -105,17 +106,16 @@ public class Exercicios6 {
         do {
             System.err.println("Cuidado o computador vai estragar!!!");
         }
-        while (truet);
+        while (true);
         
         // 11) Coloque o que falta
-        (i < 6) {
+        int m = 0;
+        if (f < 6) {
             System.out.println(i); 
-
-          ;
         }
         
         // 12) Indique a condição de paragem
-        for (int i = 0; i < 10;) {
+        for (int i = 0; i < 10; i++) {
             if (i == 5) {   
 
                 ; //parar o loop
@@ -124,7 +124,7 @@ public class Exercicios6 {
           }
         
         // 13) 
-        System.out.println ("" + 0 += 10);
+        System.out.println ("" + 0 + "=" + 10);
         System.out.println ("" + 10 -= 10);
         System.out.println ("" + 4 *== 50);
         System.out.println ("" + 30 /= 11);
